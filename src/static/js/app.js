@@ -3,8 +3,8 @@ function App() {
     return (
         <Container>
             <Row>
-                <div><h2>TODO</h2></div>
                 <Col md={{ offset: 3, span: 6 }}>
+                    <div><h2>TODO</h2></div>
                     <TodoListCard />
                 </Col>
             </Row>
