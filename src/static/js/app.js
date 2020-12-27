@@ -2,6 +2,9 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
+            <Navbar expand="lg" variant="light" bg="light">
+                <Navbar.Brand href="#">Navbar</Navbar.Brand>
+            </Navbar>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
